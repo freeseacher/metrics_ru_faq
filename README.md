@@ -51,7 +51,7 @@ A: Вот краткий и неполный список проблем на м
   * Платная кластеризация (была представлена как часть OSS в версии [0.9 (December 8, 2014)](https://www.influxdata.com/blog/clustering-tags-and-enhancements-to-come-in-0-9-0/) и исчезла в [1.0 (September 26, 2014)](https://www.influxdata.com/blog/one-year-of-influxdb-and-the-road-to-1-0/), став привилегией Enterprise версии).
   * Частые breaking changes. За 3 года сменили 5+ движков (закончили это делать на версии [0.9 (December 8, 2014)](https://www.influxdata.com/blog/clustering-tags-and-enhancements-to-come-in-0-9-0/)).
     Следующий Breaking Changes - это Influx 2.0, где они ушли от База Данных\Ретеншн полиси в сторону [Buckets](https://v2.docs.influxdata.com/v2.0/reference/key-concepts/data-elements/#bucket),
-    поменяли язык запросов на [Flux](https://v2.docs.influxdata.com/v2.0/reference/flux/) и выкинули движек InMem(TSM), оставив только TSI.
+    поменяли язык запросов на [Flux](https://v2.docs.influxdata.com/v2.0/reference/flux/).
   * Периодически выкатывают фичи непонятно зачем сделанные, например сделали [ifql](https://www.influxdata.com/blog/announcing-ifql-v0-0-3/) (Flux) или
     [Continuous Queries](https://docs.influxdata.com/influxdb/v1.8/query_language/continuous_queries/) (последние выпилили в пользу [task](https://v2.docs.influxdata.com/v2.0/process-data/common-tasks/downsample-data/),
     по факту те же яйца только с Flux-ом) или Chronograf(буква C в TICK), при живой то графане.
