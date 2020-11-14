@@ -100,6 +100,13 @@ Action на Alarm'ы
 
 Но вообще да, всё плохо.
 
+Про Экспортеры метрик в формате Prometheus
+==============
+
+Можно найти аггрегированный списки различных экспортеров и их дефолтных портов в следующих местах:
+* https://github.com/prometheus/docs/blob/master/content/docs/instrumenting/exporters.md
+* https://github.com/prometheus/prometheus/wiki/Default-port-allocations
+
 Про Cacti
 =========
 
